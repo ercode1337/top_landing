@@ -34,6 +34,8 @@ nav {
     display: flex;
     flex-direction: row;
     align-content: center;
+    border-color: white;
+    border-bottom: solid;
 }
 
 .container {
@@ -138,6 +140,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-color: white;
+    border-top: solid;
 }
 
 .third-section {
@@ -156,7 +160,7 @@ ul {
     padding: 32px;
     background: #1F2937;
     color: white;
-    width: 92vw;
+    width: 91vw;
     height: 35vh;
     border-style: solid;
 }
@@ -171,4 +175,37 @@ ul {
     border-radius: 20px;
     height: 80%;
     font-style: italic;
+    font-size: 32px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vh;
+    height: 5vh;
+    background: rgba(240, 46, 170, 0.4);
+    border-radius: 20px;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: white;
+}
+
+button:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.fourth-section {
+    filter: contrast(90deg);
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    border-color: white;
+    border-top: solid;
+    border-bottom: solid;
 }
